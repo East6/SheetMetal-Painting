@@ -2,6 +2,25 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+//一番上に表示される画像
+.jumbotron {
+  background-image: url("home_image.jpg");
+  background-size: cover;
+  background-position: center 20%;
+}
+.outline{//jumbotronの中の文字
+    text-shadow    : 
+       2px  2px 1px #ffffff,
+      -2px  2px 1px #ffffff,
+       2px -2px 1px #ffffff,
+      -2px -2px 1px #ffffff,
+       2px  0px 1px #ffffff,
+       0px  2px 1px #ffffff,
+      -2px  0px 1px #ffffff,
+       0px -2px 1px #ffffff;  
+}
+
+//タイトル(jumbotoronの下に記述
 .title{
   text-align: center;
 }
